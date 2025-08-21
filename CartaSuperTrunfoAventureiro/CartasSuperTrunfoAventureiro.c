@@ -75,7 +75,7 @@ int main() {
     scanf("%d", &pontosTuristicos2); 
 
     // Calcula propriedades adicionas
-    densidade2 = populacao2 / area2
+    densidade2 = populacao2 / area2;
     pibPorCapital2 = (pib2 * 1000000000) / populacao2;
 
     // Exibição da Carta 1
@@ -89,7 +89,7 @@ int main() {
     printf("PIB: %.2f bilhoes de reais\n", pib1);
     printf("Pontos Turisticos: %d\n", pontosTuristicos1);
     printf("Densidade Populacional: %.2f hab/km²\n", densidade1);
-    printf("PIB por Capital: %.2f reais\n" pibPorCapital1);
+    printf("PIB por Capital: %.2f reais\n", pibPorCapital1);
 
     // Exibição da Carta 2
     printf("\n=== carta 2 ===\n");
@@ -104,9 +104,6 @@ int main() {
     printf("Densidade Populacional: %.2f hab/km²\n", densidade2);
     printf("PIB por Capital: %.2f reais\n", pibPorCapital2);
 
-    
     return 0;
- 
-
 
 }

@@ -46,14 +46,14 @@ int main() {
 
     printf("Digite o numero de pontos turisticos: ");
     scanf("%d", &pontosTuristicos1);
-
+ 
     printf("\n");
 
     // ===== Cadastrar Carta 2 =====
     printf("Digite o estado da Carta 2 (A-H): ");
     scanf(" %c", &estado2);
 
-    printf("Digite o codigo da Carta 2 (ex: A01); ");
+    printf("Digite o codigo da Carta 2 (ex: B01); ");
     scanf("%s", codigo2);
 
      printf("Digite o nome da cidade: ");
